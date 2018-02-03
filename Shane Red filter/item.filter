@@ -1,4 +1,4 @@
-﻿
+
 //SynFilter: An Item Filter for the Path of Diablo Mod
 //Filter: Standard Red
 //Version: 1.3.6
@@ -8,9 +8,9 @@
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Basics
-//Hide Gold Piles Smaller Than (<) X
+Hide Gold Piles Smaller Than (<5000) X
  
-ItemDisplay[GOLD<4999]:
+ItemDisplay[GOLD<5000]:
 //Health & Mana Potions
 
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
@@ -20,14 +20,14 @@ ItemDisplay[mp4]: %BLUE%!%WHITE%M
 ItemDisplay[mp5]: %BLUE%!%WHITE%M+
 ItemDisplay[rvs CLVL>65]: 
 ItemDisplay[rvs CLVL<66]: %PURPLE%r %WHITE%35%
-ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal
-ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal
+ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor
+ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light
 ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%Healing
 ItemDisplay[hp1 CLVL>14]:
 ItemDisplay[hp2 CLVL>17]:
 ItemDisplay[hp3 CLVL>24]:
-ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%Minor Mana
-ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%Light Mana
+ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%Minor
+ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%Light
 ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%Mana
 ItemDisplay[mp1 CLVL>14]:
 ItemDisplay[mp2 CLVL>19]:
@@ -68,12 +68,12 @@ ItemDisplay[mbr]: %GOLD%Mephisto's Brain
 //Utility
 ItemDisplay[tsc]: %GREEN%!%WHITE%TP
 ItemDisplay[isc]: %GREEN%!%WHITE%ID
-ItemDisplay[wms CLVL<60]: 
-ItemDisplay[wms CLVL>59]:
-//ItemDisplay[yps]: %GREEN%!%WHITE%Antidote
+ItemDisplay[wms]: 
+ItemDisplay[wms]:
+ItemDisplay[yps]:
 ItemDisplay[yps]:
 //Keys for Locked Chests
-ItemDisplay[key]: %WHITE%key
+ItemDisplay[key]: 
 //Tomes
 ItemDisplay[tbk]: %WHITE%Tome of Town Portal
 ItemDisplay[ibk]: %WHITE%Tome of Identify
@@ -84,8 +84,8 @@ ItemDisplay[opl]:
 ItemDisplay[ops]:
 ItemDisplay[gps]:
 ItemDisplay[gpl]:
-ItemDisplay[vps CLVL<55]:
-ItemDisplay[vps CLVL>54]:
+ItemDisplay[vps]:
+ItemDisplay[vps]:
 //Hide MAGIC Quivers & Bolts above level 60
 ItemDisplay[aq2 MAG ILVL>41]:
 ItemDisplay[aq2 RARE ILVL>41]: 
